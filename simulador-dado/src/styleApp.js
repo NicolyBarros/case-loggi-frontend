@@ -1,15 +1,13 @@
-import styled from "styled-components"
+import styled from 'styled-components'
 
 export const SectionTitle = styled.section`
     display:flex;
-    justify-items:center;
     align-items: center;
     justify-content:center;
 `
 
 export const TitleProject = styled.h1`
     font-size: 5em;
-
 `
 
 export const ImageDadoTitle = styled.img`
@@ -21,6 +19,11 @@ export const BodyApp = styled.div`
     text-align: center;
     justify-items: center;
     font-family: 'Roboto', sans-serif;
+
+    .dado-rolando{
+     transform: rotate(45deg);
+     animation-duration: 0.5s;
+    }
 `
 
 export const ImageDado = styled.img`
@@ -45,3 +48,4 @@ export const Button = styled.button`
     color: black;
     }
 `
+

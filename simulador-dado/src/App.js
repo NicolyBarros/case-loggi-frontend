@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css"
 import { useState } from "react";
 import Dado1 from "./images/face1.png";
 import Dado2 from "./images/face2.png";
@@ -23,14 +22,12 @@ function App() {
     setTimeout(() => {
       setJogando(false)
     }, 600)
-
   }
 
-
-  const renderizaDado = () => {
+  const renderizarDado = () => {
     switch (sorteio) {
       case 1:
-        return <ImageDado className={`${jogando && 'dado-rolando'}`} src={Dado1} alt="Imagem da face do dado com 1 ponto" />
+        return <ImageDado className={`${jogando && 'dado-rolando'}`} src={Dado1} alt="Imagem da face do dado com 1 ponto" /> 
       case 2:
         return <ImageDado className={`${jogando && 'dado-rolando'}`} src={Dado2} alt="Imagem da face do dado com 2 pontos" />
       case 3:
@@ -55,7 +52,7 @@ function App() {
         <ImageDadoTitle src="https://img.freepik.com/vetores-premium/objeto-3d-isolado-de-dados-para-jogos-de-azar-projetam-dados-de-cassino-e-mesa-de-poquer-ou-jogos-de-tabuleiro-cubo-branco-realista-com-cinco-pontos-pretos-ou-pips-ilustracao-vetorial_341509-3356.jpg?w=2000" />
       </SectionTitle>
 
-      {renderizaDado()}
+      {renderizarDado()}
 
       <br />
 
