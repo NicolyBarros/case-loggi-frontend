@@ -16,7 +16,7 @@ honesto no qual todos os números têm a mesma probabilidade.
 projeto.
 
 ## Surge
-- [Link]()
+- [Link](https://simulador-dado.surge.sh/)
 
 ## Instalação das dependências
 - npm install : Instala as dependências utilizadas no desenvolvimento do projeto.
@@ -40,6 +40,9 @@ projeto.
  - [styled-components](https://styled-components.com/docs/basics#animations) 
  - [API Random](https://www.random.org/clients/http/)
  - [Axios](https://axios-http.com/ptbr/docs/intro)
+
+ ## Cronograma
+  - [PDF](file:///home/nicoly/Downloads/CRONOGRAMA%20-%20CASE%20LOGGI.pdf)
 
  ## Autor
 - [GitHub](https://github.com/NicolyBarros)
