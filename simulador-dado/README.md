@@ -14,8 +14,6 @@ queremos que o dado seja “viciado” - ou seja, queremos um dado
 honesto no qual todos os números têm a mesma probabilidade.
 - Inclua testes automatizados para garantir o funcionamento do seu
 projeto.
-- Se julgar necessário, inclua uma documentação sobre como
-executar sua aplicação e os testes.
 
 ## Surge
 - [Link]()
@@ -31,8 +29,9 @@ executar sua aplicação e os testes.
 - npm run test: executa nosso arquivo App.test.js, no qual contém os testes da nossa aplicação.
 
 ## Stacks
- - react
+ - React
  - styled-components
+ - testing-library
 
  ## Referências
  - [testing-library](https://testing-library.com/docs/queries/byalttext)

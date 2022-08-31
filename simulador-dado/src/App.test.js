@@ -18,7 +18,7 @@ test('test button click', () => {
   render(<App />);
   const buttonElement = screen.getByText("Jogar");
   fireEvent(buttonElement, new MouseEvent('click', {}));
-  const modal = screen.queryByText("clicou");
+  const modal = screen.queryByText("clicked");
   expect(modal).not.toBeInTheDocument();
 });
 
