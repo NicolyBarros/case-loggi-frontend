@@ -22,7 +22,7 @@ export const BodyApp = styled.div`
 
     .dice-rolling{
      transform: rotate(45deg);
-     animation-duration: 0.5s;
+     animation-duration: 0.3s;
     }
 `
 

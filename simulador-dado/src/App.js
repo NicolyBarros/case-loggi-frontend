@@ -1,3 +1,4 @@
+import axios from "axios";
 import React from "react";
 import { useState } from "react";
 import Dice1 from "./images/dice1.png";
@@ -6,7 +7,7 @@ import Dice3 from "./images/dice3.png";
 import Dice4 from "./images/dice4.png";
 import Dice5 from "./images/dice5.png";
 import Dice6 from "./images/dice6.png";
-import { TitleProject, BodyApp, Button, ImageDiceTitle, SectionTitle, ImageDice, Footer} from "./styleApp"
+import { TitleProject, BodyApp, Button, ImageDiceTitle, SectionTitle, ImageDice, Footer } from "./styleApp"
 
 function App() {
 
@@ -14,20 +15,26 @@ function App() {
   const [playing, setPlaying] = useState(false)
 
   const play = () => {
-    const draw = Math.floor(Math.random() * 6 + 1)
+    /* const draw = Math.floor(Math.random() * 6 + 1) */
+    axios.get("https://www.random.org/integers/?num=1&min=1&max=6&col=1&base=10&format=plain&rnd=new", {})
+      .then((response) => {
+        console.log(response)
+        setNumberDrawn(response.data)
+        setPlaying(true)
 
-    setNumberDrawn(draw)
-    setPlaying(true)
+        setTimeout(() => {
+          setPlaying(false)
+        }, 600)
 
-    setTimeout(() => {
-      setPlaying(false)
-    }, 600)
+      }).catch((error) => {
+        console.log(error.response.data)
+      })
   }
 
   const renderDice = () => {
     switch (numberDrawn) {
       case 1:
-        return <ImageDice className={`${playing && 'dice-rolling'}`} src={Dice1} alt="Imagem da face do dado com 1 ponto" /> 
+        return <ImageDice className={`${playing && 'dice-rolling'}`} src={Dice1} alt="Imagem da face do dado com 1 ponto" />
       case 2:
         return <ImageDice className={`${playing && 'dice-rolling'}`} src={Dice2} alt="Imagem da face do dado com 2 pontos" />
       case 3:

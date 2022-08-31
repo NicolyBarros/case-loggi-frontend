@@ -32,11 +32,14 @@ projeto.
  - React
  - styled-components
  - testing-library
+ - axios
 
  ## Referências
  - [testing-library](https://testing-library.com/docs/queries/byalttext)
  - [useState - React Hook](https://pt-br.reactjs.org/docs/hooks-overview.html#:~:text=Hooks%20s%C3%A3o%20fun%C3%A7%C3%B5es%20que%20permitem,voc%C3%AA%20use%20React%20sem%20classes.)
- -[styled-components](https://styled-components.com/docs/basics#animations)
+ - [styled-components](https://styled-components.com/docs/basics#animations) 
+ - [API Random](https://www.random.org/clients/http/)
+ - [Axios](https://axios-http.com/ptbr/docs/intro)
 
  ## Autor
 - [GitHub](https://github.com/NicolyBarros)
