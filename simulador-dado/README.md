@@ -41,9 +41,6 @@ projeto.
  - [API Random](https://www.random.org/clients/http/)
  - [Axios](https://axios-http.com/ptbr/docs/intro)
 
- ## Cronograma
-  - [PDF](file:///home/nicoly/Downloads/CRONOGRAMA%20-%20CASE%20LOGGI.pdf)
-
  ## Autor
 - [GitHub](https://github.com/NicolyBarros)
 - [Linkedin](https://www.linkedin.com/in/nicoly-barros-henrique-vitorio/)
