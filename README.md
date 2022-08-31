@@ -14,27 +14,35 @@ queremos que o dado seja “viciado” - ou seja, queremos um dado
 honesto no qual todos os números têm a mesma probabilidade.
 - Inclua testes automatizados para garantir o funcionamento do seu
 projeto.
-- Se julgar necessário, inclua uma documentação sobre como
-executar sua aplicação e os testes.
 
 ## Surge
-- [Link]()
+- [Link](https://simulador-dado.surge.sh/)
 
 ## Instalação das dependências
 - npm install : Instala as dependências utilizadas no desenvolvimento do projeto.
 - Para conferir as dependências consultar arquivo 'package.json'.
 
 ## Executar o projeto
-- npm run start: abre o projeto no navegador.
+- npm run start: abre o projeto no navegador para interação do usuário.
 
 ## Executar os testes
+- npm run test: executa nosso arquivo App.test.js, no qual contém os testes da nossa aplicação.
 
-## Autor
+## Stacks
+ - React
+ - styled-components
+ - testing-library
+ - axios
+
+ ## Referências
+ - [testing-library](https://testing-library.com/docs/queries/byalttext)
+ - [useState - React Hooks](https://pt-br.reactjs.org/docs/hooks-overview.html#:~:text=Hooks%20s%C3%A3o%20fun%C3%A7%C3%B5es%20que%20permitem,voc%C3%AA%20use%20React%20sem%20classes.)
+ - [styled-components](https://styled-components.com/docs/basics#animations) 
+ - [API Random](https://www.random.org/clients/http/)
+ - [Axios](https://axios-http.com/ptbr/docs/intro)
+
+ ## Autor
 - [GitHub](https://github.com/NicolyBarros)
 - [Linkedin](https://www.linkedin.com/in/nicoly-barros-henrique-vitorio/)
-
-## Stack - Backend
- - react
- - styled-components
 
 
